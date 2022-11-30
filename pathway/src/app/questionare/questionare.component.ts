@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuestionareComponent implements OnInit {
 
+  clicked = false;
   constructor() { }
 
   ngOnInit(): void {
